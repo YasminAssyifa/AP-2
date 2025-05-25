@@ -1,11 +1,11 @@
 #include <stdio.h> // header untuk C
-#include <conio.h>
+#include <conio.h> 
 
 int main() {
-    char nama[50];
-    int nim;
+    char nama[50]; // var karakter pada C
+    int nim; // var bilangan bulat pada C
     char kom[2];
-    float ip;
+    float ip; // var bilangan desimal pada C
 
     printf("Hello World\n"); // fungsi keluaran pada C
 
@@ -15,10 +15,10 @@ int main() {
     printf("Masukkan nim : ");
     scanf("%d", &nim); // fungsi masukan pada C
 
-    getchar();
+    getchar(); // untuk membaca karakter yang diinput keyboard
 
     printf("Masukkan kom : ");
-    gets(kom); 
+    gets(kom);
 
     printf("Masukkan ip : ");
     scanf("%f", &ip); 
@@ -34,5 +34,5 @@ int main() {
     printf("IP : %f\n", ip);
 
     printf("press any button to continue...");
-    getch(); 
+    getch(); // get character tanpa menekan enter
 }
