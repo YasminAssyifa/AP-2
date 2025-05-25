@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // goto label
+    // goto label, digunakan untuk melompat ke bagian program sesuai dengan label yang diberikan.
     // Hello World, Fasilkom-TI, Ilmu Komputer, IKLC
     // -> Hello World, IKLC, Ilmu Komputer, Fasilkom-TI
 
@@ -37,7 +37,7 @@ int main()
     //     goto genap;
     // }
 
-    // // Statement While
+    // // Statement While, dijalankan loop tersebut sampai statemnet while yang direquire tidak true lagi
     // int i = 1;
     // while (i <= 10)
     // {
@@ -47,7 +47,7 @@ int main()
     //     } i++;
     // }
 
-    // // Statement Do-While
+    // // Statement Do-While akan dijalankan 1 loop minimal 1 kali
     // int i = 1;
     // do
     // {
@@ -63,16 +63,21 @@ int main()
     
     // // Nested for
     // // ***** 5 x 5
+    
+    // untuk perulangan i = 1, yang akan berjalan jika i <= 5 dan setelah 1 loop selesai maka i akan di increment
     // for (int i = 1; i <= 5; i++){
-    //     for (int j = 1; j <= 5; j++){
+    //     for (int j = 1; j <= 5; j++) // untuk perulangan j = 1, yang akan berjalan jika j <= 5 dan setelah 1 loop selesai maka j akan di increment
+    `      {
     //         cout << "* ";
     //     }
     //     cout << endl;
     // }
 
     // // Segitiga siku-siku
+    // untuk perulangan i = 1, yang akan berjalan jika i <= 5 dan setelah 1 loop selesai maka i akan di increment
     // for (int i = 1; i <= 5; i++){
-    //     for (int j = 1; j <= i; j++){
+    //     for (int j = 1; j <= i; j++) // untuk perulangan j = 1, yang akan berjalan jika j <= i dan setelah 1 loop selesai maka j akan di increment
+           {
     //         cout << "* ";
     //     }
     //     cout << endl;
