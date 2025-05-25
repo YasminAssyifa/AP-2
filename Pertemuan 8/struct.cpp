@@ -15,7 +15,7 @@ struct Mahasiswa
     string nama;
     int umur;
     float ipk;  
-    Alamat alamat; // nester struct
+    Alamat alamat; // nester struct, menggunakan struct lain didalam struct
 };
 
 int main()
@@ -34,7 +34,7 @@ int main()
 
     // cout << "Alamat = " << mhs1.alamat.jalan << ", " << mhs1.alamat.kota << ", " << mhs1.alamat.kodePos << endl;
 
-    vector<Mahasiswa> mahasiswa;
+    vector<Mahasiswa> mahasiswa; // vektor dari suatu struct
     int n;
     cout << "Masukkan banyak mahasiswa : "; cin >> n;
 
@@ -47,9 +47,10 @@ int main()
         cout << "Masukkan nama : "; getline(cin, mhs1.nama);
         cout << "Masukkan umur : "; cin >> mhs1.umur;
         cout << "Masukkan IPK : "; cin >> mhs1.ipk;
-        mahasiswa.push_back(mhs1);
+        mahasiswa.push_back(mhs1); //memasukkan data ke dalam array
     }
 
+    // mengisi data mahasiswa menggunakan vektor dan struct. Vektor dengan index 0, structnya, diisi satu per satu
     for (int i = 0; i < n; i++)
     {
         cout << "Mahasiswa " << i+1 << endl;
