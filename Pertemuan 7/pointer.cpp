@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
 
-void penjumlahan(int a, int b)
+void penjumlahan(int a, int b) // fungsi penjumlahan
 {
     cout << a + b << endl;
 }
 
-void penjumlahanPointer (int *a, int *b)
+void penjumlahanPointer (int *a, int *b) // fungsi penjumlahan dengan pointer
 {
     *a += *b;
+    cout << *a << endl;
+}
+
+void doubleValue(int *a)
+{
+    *a *= 2;
     cout << *a << endl;
 }
 
@@ -36,7 +42,7 @@ int main()
 
     // Pointer in Array
     // int num[] = {1,2,3,4,5};
-    // int *pointer_num = num;
+    // int *pointer_num = num; // pointer menunjuk array num
     // cout << "Isi variabel num = " << num[0] << endl;
     // cout << "Alamat dari memori variabel num = " << &num[0] << endl;
     // cout << "Isi variabel pointer_num = " << pointer_num << endl;
@@ -69,11 +75,17 @@ int main()
     // cout << " Isi variabe ptr_pointer_score = " << pointer_score << " dan isi variabel yang ditunjuk oleh ptr_pointer_score = " << *ptr_pointer_score << " dan alamat memori pointer_score = " << &ptr_pointer_score << endl;
 
     // Dinamic Pointer
-    int *ptr = new int;
-    *ptr = 30;
-    cout << "Isi variabel ptr = " << *ptr << " dan alamat ptr = " << &ptr << endl;
+    // int *ptr = new int;
+    // *ptr = 30;
+    // cout << "Isi variabel ptr = " << *ptr << " dan alamat ptr = " << &ptr << endl;
 
-    delete ptr;
-    cout << "Isi variabel ptr = " << *ptr << " dan alamat ptr = " << &ptr << endl;
+    // delete ptr;
+    // cout << "Isi variabel ptr = " << *ptr << " dan alamat ptr = " << &ptr << endl;
 
+    // Contoh 
+    int n;
+    cout << "Masukkan sebuah angka: "; cin>>n;
+
+    doubleValue(&n);
+    cout<<"Nilai angka setelah dikali 2: "<<n<<endl;
 }
