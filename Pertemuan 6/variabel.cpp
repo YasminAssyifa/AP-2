@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; // variabel yang bisa digunakan dimana saja dalam program
 
 void namaVariabel()
 {
-    string namaLokal = "Komputer";
+    string namaLokal = "Komputer"; // variabel yang hanya bisa digunakan didalam fungsi
 
     // coba akses
     cout << namaLokal << endl;
