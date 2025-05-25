@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "headerCustom.h"
+#include "headerCustom.h" // menggunakan header definisi yang sudah dibikin, atau exist pada file folder yang sama
 u;
 
 int jumlah (int a, int b)
