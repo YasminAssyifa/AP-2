@@ -9,7 +9,7 @@ int main()
     cout << "Masukkan Jari-Jari Bola : ";
     cin >> jarijari;
 
-    jari = jarijari * jarijari; //menggunakan operator matekamatika "*" untuk perkalian.
+    jari = jarijari * jarijari; //menggunakan operator arimatika "*" untuk perkalian.
     Volume = (float)4/3 * phi * jari * jarijari; // "(float)" digunakan untuk menggubah tipe data dari hasil variabel itu sendiri
     Luas = 4 * phi * jari;
 
