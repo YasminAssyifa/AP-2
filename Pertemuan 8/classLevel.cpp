@@ -30,6 +30,7 @@ class ContohAkses
 };
 
 //kelas turunan
+// variabel protectedVar dapat diakses hanya dengan menggunakan class turunan dari class akses.
 class Turunan : public ContohAkses
 {
     public:
@@ -46,10 +47,10 @@ int main()
     obj.tampilkanSemua();
 
     cout << "Akses dari luar class : " << endl;
-    cout << obj.publicVar << endl;
-    // cout << obj.privateVar << endl; // error
-    // cout << obj.protectedVar << endl; // error
+    cout << obj.publicVar << endl; // variabel class public dapat diakses kapan saja tanpa ketentuan
+    // cout << obj.privateVar << endl; // error // variabel class private hanya dapat dipakai pada class itu sendiri
+    // cout << obj.protectedVar << endl; // error // variabel class protected dapat diakses melalui class turunan dari class awal
 
     Turunan tur;
-    tur.aksesProtected();
+    tur.aksesProtected(); // turunan class
 }
