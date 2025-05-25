@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    float luas, p,l;
+    float luas, p,l; // variabel bilangan desimal
 
     cout << "Masukkan Panjang : ";
     cin >> p;
@@ -11,7 +11,7 @@ int main()
     cout << "Masukkan lebar : ";
     cin >> l;
 
-    luas = p * l;
+    luas = p * l; // menggunakan operator matematika perkalian "*"
     cout << "Luas = " << luas << endl;
 
 }
