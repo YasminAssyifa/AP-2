@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-struct Mahasiswa // kumpulan variabel dengan tipe data yang berbeda
+struct Mahasiswa // kumpulan variabel dengan tipe data yang berbedaa
 {
     string nama;
     int umur;
