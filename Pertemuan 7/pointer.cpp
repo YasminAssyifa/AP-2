@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void penjumlahan(int a, int b) // fungsi penjumlahan
+void penjumlahan(int a, int b) // fungsi penjumlahann
 {
     cout << a + b << endl;
 }
