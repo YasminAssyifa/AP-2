@@ -11,7 +11,7 @@ int main()
     cout << "Masukkan lebar : ";
     cin >> l;
 
-    luas = p * l; // menggunakan operator matematika perkalian "*"
+    luas = p * l; // menggunakan operator aritmatika perkalian "*"
     cout << "Luas = " << luas << endl;
 
 }
