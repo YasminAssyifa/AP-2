@@ -13,6 +13,7 @@ int main()
 
     system("CLS");
 
+    // mengisi matriks 1
     cout << "Matriks 1" << endl;
     for (int i = 0; i<2; i++)
     {
@@ -23,6 +24,7 @@ int main()
         }
     }
 
+    // mengisi matriks 2
     cout << "Matriks 2" << endl;
     for (int i = 0; i<2; i++)
     {
@@ -33,6 +35,7 @@ int main()
         }
     }
 
+    // menjumlahkan kedua matriks
     cout << "Hasil Penjumlahan" << endl;
     for (int i = 0; i<2; i++)
     {
